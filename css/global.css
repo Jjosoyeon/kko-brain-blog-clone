@@ -1,43 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
-html,
-body {
-  font-size: 10px;
-  line-height: 1.5;
-  /* rem 이란 루트en = 제일 최상단 디렉토리 즉 html 을 의미 */
+
+html {
+  font-size: 16px;
+  lighting-color: 1.5rem;
   color: #000;
   scroll-behavior: smooth;
-  /* 부드럽게  스크롤 되게 하는것. */
-  overflow-x: hidden;
-  /* 웹페이지는 가로스크롤이 최대한 안생기게 하기위해 x는 hidden으로 지정해놓는다.  */
   text-size-adjust: 100%;
-  /*  */
-  letter-spacing: -0.23px;
-  /* 자간  */
-  font-family: "arial", sans-serif;
+  overflow-x: hidden;
+}
+body {
+  font-family: Inter, "Noto Sans KR", sans-serif;
+  /* ""안에 드가는건 띄어쓰기가 있을 시 인식을 못하기에 넣음. 하이톤으로 이어지면 ""로 안묶어도 되는데 묶어도 상관없긴함. */
+  letter-spacing: auto;
   word-break: keep-all;
 }
-
 ul,
 li {
   list-style: none;
 }
-
 a {
   text-decoration: none;
   color: #000;
 }
-
 img {
-  vertical-align: middle;
   border: 0;
-}
-
-.inner {
-  position: relative;
-  width: 1180px;
-  margin: 0 auto;
+  vertical-align: middle;
 }
