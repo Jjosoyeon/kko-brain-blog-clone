@@ -3,13 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>카카오브레인 클로드 클론 코딩</title>
+    <title>카카오브레인블로그 클론 코딩</title>
     <!-- css -->
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/global.css" />
     <link rel="stylesheet" href="css/common.css" />
     <link rel="stylesheet" href="css/header.css" />
-    <link rel="stylesheet" href="css/style.css" />
     <!-- swiper -->
     <link
       rel="stylesheet"
@@ -22,6 +21,8 @@
     />
     <!-- javascript -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/modal.js"></script>
   </head>
   <body>
     <div class="wrap">
@@ -66,8 +67,8 @@
                 </div>
               </div>
               <!-- <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-pagination"></div> -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div> -->
             </div>
             <!-- swiper 끝 -->
           </a>
@@ -253,6 +254,19 @@
         </div>
       </footer>
       <!-- 하단 영역 끝 -->
+    </div>
+
+    <div class="modal active">
+      <div class="modal-inner">
+        <p>
+          본 페이지는 스터디용으로 제작되었습니다. <br />
+          모든 저작권은 원저작자에게 있습니다. <br />
+          문제 발생 시 연락 주시면 즉각 조치하겠습니다. <br />
+        </p>
+        <div class="bt-wrap">
+          <button class="bt">닫기</button>
+        </div>
+      </div>
     </div>
   </body>
 </html>

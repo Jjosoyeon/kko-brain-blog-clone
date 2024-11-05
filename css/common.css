@@ -39,10 +39,11 @@
   color: #fff;
 }
 
-/* 기본은 데스크탑 pc 레이아웃 */
-/* 태블릿 pc 레이아웃 */
+/* 기본은 데스크탑 PC 레이아웃 */
+/* 태블릿 PC 레이아웃 */
 @media screen and (max-width: 1170px) {
   .inner {
     padding: 0 15px;
   }
-} /* 모바일 레이아웃 */
+}
+/* 모바일 레이아웃 */
