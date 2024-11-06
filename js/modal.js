@@ -1,11 +1,11 @@
 window.addEventListener("load", () => {
   const modal = document.querySelector(".modal");
-  const closemodal = document.querySelector(".modal .bt-wrap");
+  const closeModal = document.querySelector(".modal .bt-wrap");
 
-  closemodal.addEventListener("click", () => {
-    const isactive = modal.classList.contains("active");
+  closeModal.addEventListener("click", () => {
+    const isActive = modal.classList.contains("active");
 
-    if (isactive) {
+    if (isActive) {
       modal.classList.remove("active");
     }
   });
